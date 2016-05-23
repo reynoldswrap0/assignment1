@@ -1,0 +1,27 @@
+2016/05/23 04:38:16 heroku-cli/5.2.7-d27a5e1 (linux-amd64) go1.6.2 /home/nitrous/.local/share/heroku/cli/bin/heroku cmd: update
+2016/05/23 04:38:16  ▸    Error: Unexpected flag --background
+ ▸    Usage: heroku update [CHANNEL]
+ ▸    This command does not take any flags.
+ ▸    
+ ▸    See more information with heroku update --help
+2016/05/23 04:38:16 triggering background update
+2016/05/23 04:38:16 heroku-cli/5.2.7-d27a5e1 (linux-amd64) go1.6.2 /home/nitrous/.local/share/heroku/cli/bin/heroku cmd: update
+2016/05/23 04:38:31 heroku-cli/5.2.7-d27a5e1 (linux-amd64) go1.6.2 /home/nitrous/.local/share/heroku/cli/bin/heroku cmd: version
+2016/05/23 04:38:31 heroku-cli/5.2.7-d27a5e1 (linux-amd64) go1.6.2 /home/nitrous/.local/share/heroku/cli/bin/heroku cmd: commands
+2016/05/23 04:38:31 heroku-cli/5.2.7-d27a5e1 (linux-amd64) go1.6.2 /home/nitrous/.local/share/heroku/cli/bin/heroku cmd: create
+2016/05/23 04:38:32 Error: Expected response to be successful, got 422
+    at Request.handleFailure (/home/nitrous/.local/share/heroku/cli/lib/node_modules/heroku-apps/node_modules/heroku-client/lib/request.js:240:11)
+    at concat.then (/home/nitrous/.local/share/heroku/cli/lib/node_modules/heroku-apps/node_modules/heroku-client/lib/request.js:131:16)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+2016/05/23 04:38:32 {"id":"invalid_params","message":"Name must start with a letter and can only contain lowercase letters, numbers, and dashes."}
+2016/05/23 04:38:42 heroku-cli/5.2.7-d27a5e1 (linux-amd64) go1.6.2 /home/nitrous/.local/share/heroku/cli/bin/heroku cmd: version
+2016/05/23 04:38:42 heroku-cli/5.2.7-d27a5e1 (linux-amd64) go1.6.2 /home/nitrous/.local/share/heroku/cli/bin/heroku cmd: commands
+2016/05/23 04:38:42 heroku-cli/5.2.7-d27a5e1 (linux-amd64) go1.6.2 /home/nitrous/.local/share/heroku/cli/bin/heroku cmd: create
+2016/05/23 04:38:43 Error: Expected response to be successful, got 422
+    at Request.handleFailure (/home/nitrous/.local/share/heroku/cli/lib/node_modules/heroku-apps/node_modules/heroku-client/lib/request.js:240:11)
+    at concat.then (/home/nitrous/.local/share/heroku/cli/lib/node_modules/heroku-apps/node_modules/heroku-client/lib/request.js:131:16)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+2016/05/23 04:38:43 {"id":"invalid_params","message":"Name is already taken"}
+2016/05/23 04:39:03 heroku-cli/5.2.7-d27a5e1 (linux-amd64) go1.6.2 /home/nitrous/.local/share/heroku/cli/bin/heroku cmd: version
+2016/05/23 04:39:03 heroku-cli/5.2.7-d27a5e1 (linux-amd64) go1.6.2 /home/nitrous/.local/share/heroku/cli/bin/heroku cmd: commands
+2016/05/23 04:39:03 heroku-cli/5.2.7-d27a5e1 (linux-amd64) go1.6.2 /home/nitrous/.local/share/heroku/cli/bin/heroku cmd: create
