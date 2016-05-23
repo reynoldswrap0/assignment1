@@ -9,4 +9,8 @@ end
 get '/italian' do
   "Ciao!"
 end
+get '/read_more' do
+  erb :read_more
+end
+
 
