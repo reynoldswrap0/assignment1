@@ -4,3 +4,10 @@
   margin: 10px;
   text-align: center;
 }
+html{
+  background: url('http://bit.ly/flickr-img') no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
